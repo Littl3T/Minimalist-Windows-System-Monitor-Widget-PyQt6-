@@ -19,17 +19,15 @@ This **lightweight, frameless, and always-on-bottom** desktop widget provides **
 
 ### 2️⃣ Install Required Libraries
 Ensure you have **Python 3** installed. Then install dependencies:
+
 ```sh
-pip install -r requirements.txt
-```
-Or manually install:
-```sh
-pip install PyQt6 psutil
+pip install PyQt6
+pip install psutil
 ```
 
 ### 3️⃣ Run the Widget
 ```sh
-python widget.py
+python MonitoringDesktop.py
 ```
 
 ---
@@ -38,7 +36,7 @@ python widget.py
 1. Open **Notepad** and paste the following:
     ```bat
     @echo off
-    start /b "" "C:\path\to\pythonw.exe" "C:\path\to\widget.py"
+    start /b "" "C:\path\to\pythonw.exe" "C:\path\to\MonitoringDesktops.py"
     exit
     ```
 2. Save the file as:
